@@ -36,7 +36,9 @@
 		<item name="android:paddingTop">     5dp</item>
 		<item name="android:paddingRight">   2dp</item>
 		<item name="android:paddingBottom">  0dp</item>
-		<item name="android:background">   @android:drawable/bottom_bar</item>
+		<!-- Was @android:drawable/bottom_bar (a private framework resource that
+		     modern AAPT2 rejects). Replaced with a public, transparent value. -->
+		<item name="android:background">@android:color/transparent</item>
 	</style>
 
 	<style name="ButtonBarButton" />

@@ -1,0 +1,52 @@
+plugins {
+    id 'com.android.application'
+}
+
+// Optional release signing. If a keystore.properties file exists in the project
+// root, the release build is signed with it; otherwise release builds are
+// produced unsigned. keystore.properties and the *.jks file are kept out of git.
+def keystorePropertiesFile = rootProject.file('keystore.properties')
+def keystoreProperties = new Properties()
+def hasKeystore = keystorePropertiesFile.exists()
+if (hasKeystore) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace 'eu.gressly.android.zahnuhr'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'eu.gressly.android.zahnuhr'
+        minSdk 21
+        targetSdk 35
+        versionCode 11
+        versionName '2.0'
+    }
+
+    if (hasKeystore) {
+        signingConfigs {
+            release {
+                storeFile rootProject.file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (hasKeystore) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

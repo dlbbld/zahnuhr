@@ -1,0 +1,26 @@
+# Gradle / build output
+.gradle/
+build/
+/app/build/
+
+# Machine-specific and secrets — never commit
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.DS_Store
+captures/
+
+# Local agent / editor config
+.claude/
+
+# Legacy Eclipse ADT
+.classpath
+.project
+.settings/
+bin/
+gen/
