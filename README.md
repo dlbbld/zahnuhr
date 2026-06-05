@@ -45,6 +45,11 @@ keytool -genkeypair -v -keystore app/upload-keystore.jks \
 
 If `keystore.properties` is absent, release builds are produced unsigned.
 
+> ⚠️ **Updating an existing Google Play listing?** You must sign with the app's
+> *original* signing key (or the upload key registered with Play App Signing) —
+> a freshly generated key will be rejected, because Android only accepts updates
+> signed with the same identity as the installed app.
+
 ## Toolchain / SDK levels
 
 - Gradle 8.9, Android Gradle Plugin 8.7.3

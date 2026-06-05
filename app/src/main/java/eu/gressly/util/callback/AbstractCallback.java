@@ -19,7 +19,14 @@ public class AbstractCallback implements Callback {
   		updaters = new ArrayList<Updateable>();
   	}
   	if(! updaters.contains(updater)) {
-  		updaters.add(updater);	
+  		updaters.add(updater);
+  	}
+  }
+
+  @Override
+  public void removeUpdateable(Updateable updater) {
+  	if(null != updaters) {
+  		updaters.remove(updater);
   	}
   }
 

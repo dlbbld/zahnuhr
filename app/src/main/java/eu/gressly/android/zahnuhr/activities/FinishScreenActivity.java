@@ -59,6 +59,13 @@ public class FinishScreenActivity extends Activity {
 		if(! gongedForCurrentShow) {
 			MediaPlayer mPlayer = MediaPlayer.create(FinishScreenActivity.this, R.raw.gongende);
 			FinishScreenActivity.gongedForCurrentShow = true;
+			// Release the player once the end-gong has finished playing.
+			mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+				@Override
+				public void onCompletion(MediaPlayer mp) {
+					mp.release();
+				}
+			});
 			mPlayer.start();
 		}
 	}

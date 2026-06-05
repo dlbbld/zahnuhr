@@ -70,6 +70,19 @@ public class SlideShowActivity extends Activity implements Updateable {
 
 
 	@Override
+	protected void onDestroy() {
+		// Unregister from the singleton callback so the runner stops pushing
+		// updates to this (now dead) activity, and release the audio player.
+		StateImplementation.getInstance().removeUpdateable(this);
+		if (null != mPlayer) {
+			mPlayer.release();
+			mPlayer = null;
+		}
+		super.onDestroy();
+	}
+
+
+	@Override
 	public void onBackPressed() {
 		State sc = StateImplementation.getInstance();
 		sc.stop();  
