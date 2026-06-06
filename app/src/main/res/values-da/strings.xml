@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tand Timer</string>
+    <string name="kinder">Børn op til 10 år</string>
+    <string name="jugendliche">Børn fra 10 år</string>
+    <string name="start_button">Start</string>
+    <string name="los_text">Start</string>
+    <string name="zielgruppe">En tidtager til børn som vil lære at børste tænder på bedst mulig måde.</string>
+    <string name="genehmigung">"Illustrationer venligst stillet til rådighed af:
+Zentrum für Zahnmedizin der Universität Zürich
+Klinik für Präventivzahnmedizin
+Paradontologie und Kariologie"</string>
+    <string name="logo">Logo</string>
+    <string name="title_activity_slide_show">Billedvisning</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="restart_button">genstart</string>
+    <string name="ok_button">OK</string>
+    <string name="stopp">Stopp</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Fortsæt</string>
+    <string name="title_activity_finished">færdig</string>
+    <string name="kf_or">Øvre tyggeflader den ene side</string>
+    <string name="kf_ol">Øvre tyggeflader den anden side</string>
+    <string name="kf_ur">Nedre tyggeflader den ene side</string>
+    <string name="kf_ul">Nedre tyggeflader den anden side</string>
+    <string name="sf_r">Kindtænder inklusiv hjørnetænder den ene side</string>
+    <string name="sf_l">Kindtænder inklusiv hjørnetænder den anden side</string>
+    <string name="sf_ro">Øverste kindtænder inklusiv hjørnetænder den ene side</string>
+    <string name="sf_ru">Nederste kindtænder inklusiv hjørnetænder den ene side</string>
+    <string name="sf_lo">Øverste kindtænder inklusiv hjørnetænder den anden side</string>
+    <string name="sf_lu">Nederste kindtænder inklusiv hjørnetænder den anden side</string>
+    <string name="sf_vo">Ydersiden af fortænder</string>
+    <string name="sf_vu">Ydersiden af nederste forreste tænder</string>
+    <string name="i_or">Indersiden af de øverste kindtænder den ene side</string>
+    <string name="i_ov">Indersiden af fortænder</string>
+    <string name="i_ol">Indersiden af de øverste kindtænder den anden side</string>
+    <string name="i_ur">Indersiden af de nederste kindtænder den ene side</string>
+    <string name="i_uv">Indersiden af nederste fortænder</string>
+    <string name="i_ul">Indersiden af de nederste kindtænder den anden side</string>
+    <string name="fertig">Færdig ! Godt klaret!</string>
+    <string name="beenden_button">Afslut</string>
+</resources>

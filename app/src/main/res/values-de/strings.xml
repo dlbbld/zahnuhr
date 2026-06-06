@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zahnuhr</string>
+    <string name="kinder">Kinder bis 10 Jahre</string>
+    <string name="jugendliche">Ab 10 Jahren</string>
+    <string name="start_button">Start</string>
+    <string name="los_text">Los</string>
+    <string name="zielgruppe">Eine Zahnuhr für Kinder, welche in der Schule bereits ins Zähneputzen eingeführt wurden.</string>
+    <string name="genehmigung">"Bilder mit freundlicher Genehmigung:
+Zentrum für Zahnmedizin der Universität Zürich
+Klinik für Präventivzahnmedizin
+Paradontologie und Kariologie"</string>
+    <string name="logo">Logo</string>
+    <string name="title_activity_slide_show">SlideShow</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="restart_button">Neu starten</string>
+    <string name="ok_button">OK</string>
+    <string name="stopp">Stopp</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Weiter</string>
+    <string name="title_activity_finished">Fertig</string>
+    <string name="kf_or">Kauflächen oben erste Seite</string>
+    <string name="kf_ol">Kauflächen oben zweite Seite</string>
+    <string name="kf_ur">Kauflächen unten erste Seite</string>
+    <string name="kf_ul">Kauflächen unten zweite Seite</string>
+    <string name="sf_r">Seitenfläche erste Seite bis und mit Eckzahn</string>
+    <string name="sf_l">Seitenfläche zweite Seite bis und mit Eckzahn</string>
+    <string name="sf_ro">Seitenfläche erste Seite oben bis und mit Eckzahn</string>
+    <string name="sf_ru">Seitenfläche erste Seite unten bis und mit Eckzahn</string>
+    <string name="sf_lo">Seitenfläche zweite Seite oben bis und mit Eckzahn</string>
+    <string name="sf_lu">Seitenfläche zweite Seite unten bis und mit Eckzahn</string>
+    <string name="sf_vo">Schaufeln außen</string>
+    <string name="sf_vu">Außen vorne unten</string>
+    <string name="i_or">Innen oben erste Seite</string>
+    <string name="i_ov">Schaufeln innen</string>
+    <string name="i_ol">Innen oben zweite Seite</string>
+    <string name="i_ur">Innen unten erste Seite</string>
+    <string name="i_uv">Innen unten vorne</string>
+    <string name="i_ul">Innen unten zweite Seite</string>
+    <string name="fertig">Fertig, Bravo!</string>
+    <string name="beenden_button">Beenden</string>
+</resources>

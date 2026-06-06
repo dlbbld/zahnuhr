@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Timer for tannpuss</string>
+    <string name="kinder">Barn opp til 10 år</string>
+    <string name="jugendliche">Barn og ungdom over 10 år</string>
+    <string name="start_button">Start</string>
+    <string name="los_text">Start</string>
+    <string name="zielgruppe">Timer for barn som allerede lært seg å pusse tennene skikkelig</string>
+    <string name="genehmigung">"Bilder gjengitt med tillatelse av:
+Zentrum für Zahnmedizin der Universität Zürich
+Klinik für Präventivzahnmedizin
+Paradontologie und Kariologie"</string>
+    <string name="logo">Logo</string>
+    <string name="title_activity_slide_show">Bildevising</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="restart_button">Gjenstart</string>
+    <string name="ok_button">OK</string>
+    <string name="stopp">Stopp</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Fortsett</string>
+    <string name="title_activity_finished">Ferdig</string>
+    <string name="kf_or">Tyggeflater i overkjeven, den ene siden</string>
+    <string name="kf_ol">Tyggeflater i overkjeven, den andre siden</string>
+    <string name="kf_ur">Tyggeflater i underkjeven, den ene siden</string>
+    <string name="kf_ul">Tyggeflater i underkjeven, den andre siden</string>
+    <string name="sf_r">Sideflater på den ene siden til og med hjørnetannen</string>
+    <string name="sf_l">Sideflater på den andre siden til og med hjørnetannen</string>
+    <string name="sf_ro">Overkjevetennenes sideflater på den ene siden til og med hjørnetannen</string>
+    <string name="sf_ru">Underkjevetennenes sideflater på den ene siden til og med hjørnetannen</string>
+    <string name="sf_lo">Overkjevetennenes sideflater på den andre siden til og med hjørnetannen</string>
+    <string name="sf_lu">Underkjevetennenes sideflater på den andre siden til og med hjørnetannen</string>
+    <string name="sf_vo">Fremsiden av fortennene i overkjeven</string>
+    <string name="sf_vu">Fremsiden av fortennene i underkjeven</string>
+    <string name="i_or">Baksiden av fortennene i overkjeven, den ene siden</string>
+    <string name="i_ov">Baksiden av overkjevens fortenner</string>
+    <string name="i_ol">Baksiden av fortennene i overkjeven, den andre siden</string>
+    <string name="i_ur">Baksiden av fortennene i underkjeven, den ene siden</string>
+    <string name="i_uv">Baksiden av underkjevens fortenner</string>
+    <string name="i_ul">Baksiden av fortennene i underkjeven, den andre siden</string>
+    <string name="fertig">Ferdig! Godt gjort!</string>
+    <string name="beenden_button">Avslutte</string>
+</resources>
